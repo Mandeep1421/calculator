@@ -9,9 +9,7 @@
 import UIKit
 
 class ViewController: UIViewController {
-    var a: Int = 0
-    var b: Int = 0
-    var c: Int = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -25,6 +23,9 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var result: UILabel!
     @IBAction func add(_ sender: UIButton) {
+        var a: Int = 0
+        var b: Int = 0
+        var c: Int = 0
         a = Int(txtno1.text!)!
         b = Int(txtno2.text!)!
         c = a+b
@@ -35,6 +36,9 @@ class ViewController: UIViewController {
 
    
     @IBAction func sub(_ sender: Any) {
+        var a: Int = 0
+        var b: Int = 0
+        var c: Int = 0
         a = Int(txtno1.text!)!
         b = Int(txtno2.text!)!
         c = a-b
@@ -45,6 +49,9 @@ class ViewController: UIViewController {
     
     
     @IBAction func mul(_ sender: UIButton) {
+        var a: Int = 0
+        var b: Int = 0
+        var c: Int = 0
         
         a = Int(txtno1.text!)!
         b = Int(txtno2.text!)!
@@ -54,6 +61,9 @@ class ViewController: UIViewController {
     }
     
     @IBAction func div(_ sender: UIButton) {
+        var a: Int = 0
+        var b: Int = 0
+        var c: Int = 0
         a = Int(txtno1.text!)!
         b = Int(txtno2.text!)!
         c = a/b
